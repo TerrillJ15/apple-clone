@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  color: #333;
+  font-family: 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Arial',
+    sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+ol,
+ul {
+  list-style: none;
+  font-size: 12px;
+  display: block;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+/* FONT */
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_text.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_thin.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  src: url('fonts/myriad-set-pro_ultralight.ttf') format('truetype');
+  font-weight: 100;
+}
+
+/* End of FONT */
+
+/* COMMON */
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* End of COMMON */
+
+/* HEADER */
+
+header {
+  background-color: rgb(51, 51, 51);
+  height: 44px;
+}
+.header-col {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+.header-col:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.container {
+  max-width: 1004px;
+  margin: auto;
+}
+
+/* End of HEADER */
+
+/* HERO */
+
+#hero {
+  background: url(./images/hero_iphone_13pro.jpg) center no-repeat;
+  height: 600px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
+#product-info {
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 60px;
+}
+#product-name {
+  font-weight: 600;
+  font-size: 3em;
+}
+#product-text {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+#product-links li {
+  display: inline-block;
+  color: #08c;
+}
+#product-links a {
+  color: #08c;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+/* End of HERO */
+
+/* HERO SUB */
+
+.hero-sub-images {
+  height: 200px;
+}
+.col-3 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+#hero-sub-watch {
+  background: url(images/watch_large.jpg) center center no-repeat;
+}
+#hero-sub-ipad {
+  background: url(images/ipad_pro_large.jpg) center center no-repeat;
+}
+#hero-sub-access {
+  background: url(images/accessories_large.jpg) center center no-repeat;
+}
+#hero-sub-macbook {
+  background: url(images/macbook_large.jpg) center center no-repeat;
+}
+#recall {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#recall a {
+  color: #08c;
+}
+
+/* End of HERO SUB */
+
+/* FOOTER */
+
+footer {
+  background-color: #f2f2f2;
+}
+.footer-links {
+  font-size: 12px;
+  margin: 0 14px;
+}
+.footer-links a {
+  color: #666666;
+  padding-top: 2px;
+}
+.footer-col {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-col ul > li:first-child {
+  font-weight: 600;
+  color: #333;
+  padding-top: 24px;
+}
+#help {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+#help-support {
+  border-bottom: 1px solid #e3e3e3;
+}
+#help-support p {
+  margin-bottom: 6px;
+  color: rgb(153, 153, 153);
+}
+#help-support a {
+  color: #08c;
+  text-decoration: none;
+  padding-top: 10px;
+}
+#help-legal {
+  vertical-align: top;
+  padding-top: 4px;
+}
+#help-legal p {
+  display: inline-block;
+  margin-right: 22px;
+  color: rgb(153, 153, 153);
+}
+.legal-separator {
+  border-right: 1px solid #e3e3e3;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+#location {
+  float: right;
+}
+#location-flag {
+  display: inline-block;
+  height: 16px;
+  width: 21px;
+  background: url(images/usa.png) 3px 0 no-repeat;
+  background-size: 16px 16px;
+  padding-right: 1px;
+  margin-bottom: -4px;
+}
+
+/* End of FOOTER */
